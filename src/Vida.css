@@ -1,0 +1,223 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.contenedor {   /*Se crea el tamaño del contenedor*/
+  
+    margin:  auto;
+    padding: 0%;
+    width: 950px;
+    height: 920px;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-direction: alternate;
+
+
+
+	box-shadow: 0px 0px 11px 10px rgba(0,0,0,0.75);
+
+
+}
+
+@keyframes contenedor {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+  
+  to {
+   margin-left:0%;
+   width:100%;
+ }
+}
+
+.fondo1{  /*Se crea para colocar la imagen de fondo*/
+    width: 100%;
+    height: 28%;
+    background-image: url("img/fondo.jpg");
+    background-size: cover;
+   
+}
+
+.foto{ /*Se crea para personalizar la foto de perfil*/
+    width: 200px;
+    height: 200px;
+ 
+    margin-left: 40%;
+    margin-top: 3%;
+   
+
+}
+.caja{/*Se crea para colocar el tamaño del div*/
+	width:100%;
+	height: 10%;
+
+}
+h1{/*Se crea para personalizar la etiqueta H1*/
+	padding-left: 41%;
+	padding-top: 6%;
+
+}
+
+.caja1{/*Se crea el tamaño de la caja*/
+	width:100%;
+	height: 5%;
+	padding-left: 7%;
+}
+
+.caja3{/*Se crea el tamaño de la caja*/
+	width:35%;
+	height: 40%;
+	background-image: url("img/LOL.jpg");
+  background-size: cover;
+  float: left;
+}
+.netflix{/*Se crea el tamaño de la caja*/
+	width:35%;
+	height: 40%;
+	background-image: url("img/netflix.png");
+  background-size: cover;
+  float: left;
+  margin-left: 22%;
+}
+
+li {/*Se coloca la lista a la izquierda*/
+	float: left;
+  padding-left: 14%;
+}
+
+li a {/*Se personaliza la lista*/
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	  font-family:sans-serif;
+  }
+
+.caja2{/*Se crea el tamaño de la caja*/
+	width: 100%;
+	height: 51%;
+}
+
+.caja2Texto{/*Se crea el tamaño de la caja*/
+	width: 78%;
+	height: 39.5%;
+	padding-top:11%;
+	padding-left: 12%;
+}
+
+.tamano{/*Se crea el tamaño para un icono*/
+
+	width: 100px;
+	height: 100px;
+}
+.tamanoMySql{/*Se crea el tamaño para un icono*/
+
+	width: 150px;
+	height: 100px;
+}
+.tamanoC{/*Se crea el tamaño para un icono*/
+
+	width: 150px;
+	height: 150px;
+}
+
+
+.linea{/*Se crea el tamaño para un icono*/
+
+	border-top: 3px solid black;
+    width: 573px;
+    margin-left: 20%;
+}
+p{/*Se ajusta el texto*/
+	
+	text-align: justify;
+	text-align: center;
+
+}
+
+.proyecto{/*Se crea para la lista de los proyectos*/
+	width:16%;
+	height: 35%;
+	margin-left: 15%;
+	margin-top: 5%;
+	border: 1px solid grey;
+	float:left;
+}
+.proyecto1{/*Se crea para la lista de los lenguajes*/
+	width:16%;
+	height: 30%;
+	margin-left: 15%;
+	margin-top: 5%;
+	float:left;
+}
+
+.fondob{/*Se crea para el fondo del final*/
+
+	width: 100%;
+	height: 6%;
+	background-color: grey;
+  align-items: center;
+}
+.redS{/*Se crea para el tamaño de los iconos de las redes sociales*/
+
+	width: 40px;
+	height: 40px;
+	
+	
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left:100%;
+    width:50%
+    
+  }
+  
+  to {
+   margin-left:25%;
+   width:50%;
+ }
+}
